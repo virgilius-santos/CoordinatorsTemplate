@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Identifier</key>
+	<string>com.apple.dt.unit.coordinatorApplication</string>
+	<key>Ancestors</key>
+	<array>
+		<string>com.apple.dt.unit.coordinatorApplicationBase</string>
+	</array>
+	<key>Concrete</key>
+	<true/>
+	<key>Description</key>
+	<string>This template provides a starting point for an application that uses a Coordinator Pattern. It provides a complete Scene with Coordinator, Navigator, Service, ViewController, View, ViewModel and Model.</string>
+	<key>SortOrder</key>
+	<integer>1</integer>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>languageChoice</string>
+			<key>Units</key>
+			<dict>
+				<key>Swift</key>
+				<array>
+					<dict>
+						<key>RequiredOptions</key>
+						<dict>
+							<key>userInterface</key>
+							<string>Coordinator</string>
+						</dict>
+						<key>Nodes</key>
+						<array>
+							<string>Support/Coordinator.swift</string>
+							<string>Support/Navigator.swift</string>
+							<string>Support/AppCoordinator.swift</string>
+						</array>
+						<key>Definitions</key>
+						<dict>
+							<key>Support/AppCoordinator.swift</key>
+							<dict>
+								<key>Group</key>
+								<string>Support</string>
+								<key>Path</key>
+								<string>Support/AppCoordinator.swift</string>
+							</dict>
+							<key>Support/Coordinator.swift</key>
+							<dict>
+								<key>Group</key>
+								<string>Support</string>
+								<key>Path</key>
+								<string>Support/Coordinator.swift</string>
+							</dict>
+							<key>Support/Navigator.swift</key>
+							<dict>
+								<key>Path</key>
+								<string>Support/Navigator.swift</string>
+								<key>Group</key>
+								<string>Support</string>
+							</dict>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>userInterface</string>
+			<key>Name</key>
+			<string>User Interface:</string>
+			<key>Description</key>
+			<string>The type of user interface.</string>
+			<key>Values</key>
+			<array>
+				<string>Coordinator</string>
+			</array>
+			<key>RequiredOptionsForValues</key>
+			<dict>
+				<key>Coordinator</key>
+				<dict>
+					<key>languageChoice</key>
+					<string>Swift</string>
+				</dict>
+			</dict>
+			<key>Default</key>
+			<string>Coordinator</string>
+			<key>Type</key>
+			<string>popup</string>
+		</dict>
+	</array>
+</dict>
+</plist>

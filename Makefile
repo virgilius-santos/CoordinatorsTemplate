@@ -1,0 +1,14 @@
+XCODE_USER_TEMPLATES_DIR=~/Library/Developer/Xcode/Templates/File\ Templates
+
+FILE_TEMPLATES_DIR=Coordinator\ File\ Templates
+PROJECT_TEMPLATES_DIR=Coordinator\ Project\ Templates
+
+install_templates:
+	mkdir -p $(XCODE_USER_TEMPLATES_DIR)
+	rm -fR $(XCODE_USER_TEMPLATES_DIR)/$(FILE_TEMPLATES_DIR)
+	rm -fR $(XCODE_USER_TEMPLATES_DIR)/$(PROJECT_TEMPLATES_DIR)
+	cp -R $(FILE_TEMPLATES_DIR) $(XCODE_USER_TEMPLATES_DIR)
+	cp -R $(PROJECT_TEMPLATES_DIR) $(XCODE_USER_TEMPLATES_DIR)
+
+uninstall_templates:
+	rm -fR $(XCODE_USER_TEMPLATES_DIR)/$(TEMPLATES_DIR)
