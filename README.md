@@ -21,7 +21,10 @@ This is a Coordinator template modified from the CleanSwift, to accomodate commo
 
 To learn more about Coordinator, read:
 
-- https://medium.com/@uniq.nestea/coordinators-simple-approach-f7b077f933ec
+- [Coordinator - simple approach](https://medium.com/@uniq.nestea/coordinators-simple-approach-f7b077f933ec)
+- [Custom Xcode Projects](https://useyourloaf.com/blog/creating-custom-xcode-project-templates/)
+- [Custom Xcode Template for Coordinators](https://www.hackingwithswift.com/articles/158/how-to-create-a-custom-xcode-template-for-coordinators)
+- [Clean Swift Template](https://github.com/pakej/clean-swift-template)
 
 There is a sample app available at:
 
