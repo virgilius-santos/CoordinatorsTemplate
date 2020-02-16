@@ -26,3 +26,7 @@ To learn more about Coordinator, read:
 There is a sample app available at:
 
 - coming soon
+
+## Next Steps
+
+- Create templates tests
