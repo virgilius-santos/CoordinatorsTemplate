@@ -19,8 +19,9 @@ This is a Coordinator template modified from the CleanSwift, to accomodate commo
 
 ## References
 
-To learn more about Coordinator, read:
+To learn more about Coordinator, Architecture and Templates, read:
 
+- [Layered Architecture to Design iOS Apps](https://www.vadimbulavin.com/tag/architecture/)
 - [Coordinator - simple approach](https://medium.com/@uniq.nestea/coordinators-simple-approach-f7b077f933ec)
 - [Custom Xcode Projects](https://useyourloaf.com/blog/creating-custom-xcode-project-templates/)
 - [Custom Xcode Template for Coordinators](https://www.hackingwithswift.com/articles/158/how-to-create-a-custom-xcode-template-for-coordinators)
